@@ -1,0 +1,32 @@
+.divHeader {
+
+}
+
+.navHeader {
+    display: flex;
+    flex-direction: row;
+}
+
+.divTitle {
+
+}
+
+.titleNav {
+    height: 48px;
+    color: #FF6060;
+}
+
+.divNav {
+    
+}
+
+.logoKasa {
+}
+
+.home {
+    color: #FF6060;
+}
+
+.about {
+    color: #FF6060;
+}

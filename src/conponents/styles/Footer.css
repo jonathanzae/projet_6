@@ -1,0 +1,33 @@
+.divFooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 209px;
+    background-color: #000000;
+}
+
+.divLogoFooter {
+    display: flex;
+    justify-content: center;
+}
+
+.spanLogo {
+    font-size: x-large;
+    display: flex;
+    color: #ffff;
+}
+
+.logoFooter {
+    color: #ffff;
+}
+
+.divLegalNotice {
+    display: flex;
+    justify-content: center;
+}
+
+.legalNotice {
+    font-weight: 500;
+    color: #ffff;
+}
