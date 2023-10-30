@@ -3,7 +3,6 @@ import './App.css';
 import Header from '../conponents/Header.js';
 import Body from '../conponents/Body.js';
 import Footer from '../conponents/Footer.js';
-import Logements from '../logements.json';
 
 function Kasa() {
   return (<div className="kasa">
@@ -45,7 +44,7 @@ export default Kasa;
     
 //     return (
 //         <div>
-//             < Banner title={"Mon Titre"}/>
+//             {/* < Banner title={"Mon Titre"}/> */}
 //           {
 //             Logements.map((logement) => {
 //                 return <p>{logement.title}</p>

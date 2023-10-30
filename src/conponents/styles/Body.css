@@ -1,0 +1,47 @@
+.divBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.backgroundSection1 {
+    display: flex;
+    width: 1240px;
+    height: 223px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    max-width: 1240px;
+    background-color: #F6F6F6;
+    border-radius: 20px;
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card  {
+    width: 340px;
+    height: 340px;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.imgGallery {
+    width: 340px;
+    height: 340px;
+    border-radius: 20px;
+}

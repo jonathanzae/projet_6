@@ -1,10 +1,15 @@
 .divHeader {
-
+    max-width: 1240px;
+    margin: auto;
 }
 
 .navHeader {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .divTitle {
@@ -14,19 +19,36 @@
 .titleNav {
     height: 48px;
     color: #FF6060;
+    padding: 0;
 }
 
 .divNav {
-    
-}
-
-.logoKasa {
+    display: flex;
+    gap: 57px;
 }
 
 .home {
     color: #FF6060;
+    margin: 0;
+    font-size: 24px;
+    font-weight: 500;
+    border-bottom: 3px solid #fff;
+}
+
+.home:hover {
+    border-bottom: 3px solid #FF6060;
+    cursor: pointer;
 }
 
 .about {
     color: #FF6060;
+    margin: 0;
+    font-size: 24px;
+    font-weight: 500;
+    border-bottom: 3px solid #fff;
+}
+
+.about:hover {
+    border-bottom: 3px solid #FF6060;
+    cursor: pointer;
 }
