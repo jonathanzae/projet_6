@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&family=Raleway:wght@500&display=swap');
+
 .divHeader {
     max-width: 1240px;
     margin: auto;
@@ -12,10 +14,6 @@
     margin-bottom: 20px;
 }
 
-.divTitle {
-
-}
-
 .titleNav {
     height: 48px;
     color: #FF6060;
@@ -28,6 +26,7 @@
 }
 
 .home {
+    font-family: Montserrat;
     color: #FF6060;
     margin: 0;
     font-size: 24px;
@@ -41,6 +40,7 @@
 }
 
 .about {
+    font-family: Montserrat;
     color: #FF6060;
     margin: 0;
     font-size: 24px;

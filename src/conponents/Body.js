@@ -17,6 +17,7 @@ function Body() {
           alt="Bord de mer rocheu"
           className="backgroundSection1"
         />
+        <h2 className="titleBackground" >Chez vous, partout et ailleurs</h2>
       </div>
       {/* <ul>
             {
@@ -31,6 +32,7 @@ function Body() {
             return (
               <div className="card" key={logement.id}>
                 <img src={logement.cover} alt="img" className="imgGallery" />
+                <p className="titleImg">{logement.title}</p>
               </div>
             );
           })}
